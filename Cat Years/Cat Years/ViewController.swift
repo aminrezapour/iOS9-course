@@ -1,23 +1,30 @@
 //
 //  ViewController.swift
-//  Hello World
+//  Cat Years
 //
-//  Created by Amin Rezapour on 3/9/16.
-//  Copyright © 2016 Appfish. All rights reserved.
+//  Created by Rob Percival on 15/06/2015.
+//  Copyright © 2015 Appfish. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var label: UILabel!
-    @IBOutlet var textField: UITextField!
+    @IBOutlet var catAgeTextField: UITextField!
     
-    @IBAction func submit(sender: AnyObject) {
+    @IBOutlet var resultLabel: UILabel!
+    
+    @IBAction func findAge(sender: AnyObject) {
         
-        label.text = textField.text
+        var catAge = Int(catAgeTextField.text!)!
+        
+        catAge = catAge * 7
+        
+        resultLabel.text = "Your cat is \(catAge) in cat years"
+        
         
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
