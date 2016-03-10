@@ -12,6 +12,7 @@
 		6EDA9FCF1C90E1B0002C088A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDA9FCD1C90E1B0002C088A /* Main.storyboard */; };
 		6EDA9FD11C90E1B0002C088A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EDA9FD01C90E1B0002C088A /* Assets.xcassets */; };
 		6EDA9FD41C90E1B0002C088A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDA9FD21C90E1B0002C088A /* LaunchScreen.storyboard */; };
+		6EDA9FE01C9124E9002C088A /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EDA9FDE1C9124E9002C088A /* cat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6EDA9FD01C90E1B0002C088A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EDA9FD31C90E1B0002C088A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EDA9FD51C90E1B0002C088A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EDA9FDF1C9124E9002C088A /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/cat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				6EDA9FC91C90E1B0002C088A /* AppDelegate.swift */,
 				6EDA9FCB1C90E1B0002C088A /* ViewController.swift */,
 				6EDA9FCD1C90E1B0002C088A /* Main.storyboard */,
+				6EDA9FDE1C9124E9002C088A /* cat.png */,
 				6EDA9FD01C90E1B0002C088A /* Assets.xcassets */,
 				6EDA9FD21C90E1B0002C088A /* LaunchScreen.storyboard */,
 				6EDA9FD51C90E1B0002C088A /* Info.plist */,
@@ -124,6 +127,7 @@
 			files = (
 				6EDA9FD41C90E1B0002C088A /* LaunchScreen.storyboard in Resources */,
 				6EDA9FD11C90E1B0002C088A /* Assets.xcassets in Resources */,
+				6EDA9FE01C9124E9002C088A /* cat.png in Resources */,
 				6EDA9FCF1C90E1B0002C088A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +161,14 @@
 				6EDA9FD31C90E1B0002C088A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6EDA9FDE1C9124E9002C088A /* cat.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EDA9FDF1C9124E9002C088A /* Base */,
+			);
+			name = cat.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
