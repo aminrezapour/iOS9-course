@@ -52,11 +52,11 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYe-cr-h8A">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYe-cr-h8A">
                                 <rect key="frame" x="20" y="221" width="560" height="158"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="158" id="3UW-S6-Kf0"/>
-                                    <constraint firstAttribute="width" constant="226" id="9IU-IF-zqz"/>
+                                    <constraint firstAttribute="width" constant="560" id="9IU-IF-zqz"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="158" id="Bfw-EV-3iL"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="560" id="EfG-Ij-qds"/>
                                 </constraints>
